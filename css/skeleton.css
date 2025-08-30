@@ -1,0 +1,426 @@
+@charset "utf-8";
+/* Table of Contents
+==================================================
+	#Desktop (1920 and 1600 and 1440 and 1366)
+	#laptop (1440 and 1366)
+	#Tablet (991 to 767)
+	#Mobile (767 to 360)
+
+
+
+/* #Additional - Large Screens width of 1800px to 1601px 
+================================================== */
+@media only screen and (min-width: 1601px) and (max-width: 1800px) {
+
+:root										{ --container-width: 1300px; }
+.container                                  { max-width: 1300px; }
+
+
+}
+
+/* #Additional - Large Screens width of 1600px to 1501px 
+================================================== */
+@media only screen and (min-width: 1501px) and (max-width: 1600px) {
+
+:root										{ --container-width: 1300px; }
+.container                                  { max-width: 1300px; }
+
+
+}
+
+/* #Additional - Large Screens width of 1500px to 1441px 
+================================================== */
+@media only screen and (min-width: 1441px) and (max-width: 1500px) {
+
+:root										{ --container-width: 1300px; }
+.container                                  { max-width: 1300px; }
+
+
+}
+
+/* #Additional - Large Screens width of 1440px to 1200px 
+================================================== */
+@media only screen and (min-width: 1367px) and (max-width: 1440px) {
+
+:root										{ --container-width: 1300px; }
+.container                                  { max-width: 1300px; }
+
+
+}
+
+/* #Additional - Large Screens  width of 1366px to 1200px
+================================================== */
+@media only screen and (min-width: 1200px) and (max-width: 1366px) {
+    
+:root										{ --container-width: 1250px; }
+.container                                  { max-width: 1250px; padding: 0 15px; }
+
+
+}
+
+/* #iPad Pro - Large Screens width of 1199px to 990px
+================================================== */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+:root										{ --container-width: 960px; }
+.container									{ max-width: 960px; }
+
+header .topHeader 							{ padding: 10px 0; }
+header .bottomHeader 						{ padding: 10px 0; }
+
+.bannerSec 									{ height: 650px; padding: 170px 0 70px; }
+.bannerSec .caption 						{ padding-right: 0; }
+.bannerSec .caption h1 						{ font-size: 45px; line-height: 65px; margin-bottom: 25px; }
+
+.aboutSec 									{ padding: 70px 0; }
+.aboutSec .leftCol 							{ padding-right: 0; }
+.aboutSec .leftCol h2  						{ margin-bottom: 20px; }
+.aboutSec .leftCol .aboutCounterBox 		{ margin-top: 30px; gap: 20px; }
+.aboutSec .leftCol .aboutCounterBox .counterBox .counterNumber { font-size: 45px; line-height: 50px; }
+
+.ourPromise 								{ padding: 70px 0; }
+.ourPromise .leftCol .topBox 				{ padding: 25px; }
+.ourPromise .leftCol .bottomBox  			{ padding: 25px; }
+.ourPromise .leftCol .bottomBox h4 			{ font-size: 16px; }
+.ourPromise .rightCol  						{ padding: 25px; }
+.ourPromise .rightCol h4 					{ font-size: 16px; }
+
+.ourProductSec 								{ padding: 70px 0; }
+.ourProductSec .leftCol 					{ background-size: cover; margin-top: 30px; padding: 0 30px 30px 30px; }
+.ourProductSec .rightCol h2 				{ margin-bottom: 30px; }
+.ourProductSec .rightCol ul 				{ margin-bottom: 30px; }
+
+.highlightsSec 								{ padding: 70px 0; }
+.highlightsSec .highlightsSlider h2 		{ margin-bottom: 40px; }
+.highlightsSec .highlightsSlider .highlights-slider.owl-theme .owl-dots { margin-top: 50px; }
+
+.whyChooseSec 								{ padding: 70px 0; }
+.whyChooseSec .whyChoose h2  				{ margin-bottom: 40px; }
+.whyChooseSec .whyChoose .whyChooseBox   	{ padding: 20px; }
+.whyChooseSec .whyChoose .whyChooseBox .whyChooseIcon { margin-bottom: 30px; }
+.whyChooseSec .whyChoose .whyChooseBox h5 	{ margin-bottom: 15px; }
+.whyChooseSec .whyChoose .whyChooseBox h4 	{ margin-bottom: 20px; }
+
+.faqSec  									{ padding: 70px 0; }
+
+.customersSec 								{ padding: 70px 0; }
+
+footer .ftr-top 							{ padding: 70px 0 40px; }
+footer .ftr-top .ftr-contact h3 			{ font-size: 30px; }
+footer .ftr-top .ftr-contact h2 			{ font-size: 30px; margin-bottom: 40px; }
+footer .ftr-top .ftr-links ul.navMenu 		{ gap: 10px; margin-bottom: 40px; }
+footer .ftr-top .ftr-links ul.navMenu li 	{ width: calc(33.33% - 7px); }
+footer .ftr-top .ftr-links ul.navMenu li a 	{ font-size: 14px; }
+footer .ftr-top .ftr-links .socialIcons  	{ gap: 20px; }
+footer .ftr-marqueeSec .marquee-container .marquee-text { font-size: 170px; line-height: 180px; padding: 0 30px; }
+
+
+/* ---------- Inner Banner Page Css ---------- */
+.innerBannerSec  							{ padding: 60px 0; }
+.innerBannerSec .caption h1 				{ font-size: 35px; line-height: 50px; }
+.innerBannerSec .caption .bannerBreadcrumb 	{ margin-bottom: 50px; }
+.innerBannerSec .caption form .form-group textarea.form-control { height: 90px; }
+
+
+/* ---------- Contact Us Page Css ---------- */
+.contactReach 								{ padding: 70px 0 30px; }
+.contactReach .contactDetail .detailBox  	{ padding: 15px; }
+.mapSec iframe 								{ height: 400px; }
+
+
+/* ---------- Videos Page Css ---------- */
+.videosInnerBannerSec .caption h1 			{ font-size: 35px; line-height: 50px; margin-bottom: 20px; }
+.videosInnerBannerSec .caption p 			{ width: 60%; }
+.videosInnerBannerSec .caption .subscribeBtn { padding: 20px 25px; }
+
+.videosSec 									{ padding: 70px 0; }
+
+
+}
+
+/* #Tablet (Portrait)
+================================================== */
+/* Note: Design for a width of 991px to 768px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+:root										{ --container-width: 768px; }
+.container									{ max-width: 100%; padding: 0 15px; }
+
+header .topHeader 							{ padding: 10px 0; }
+header .bottomHeader 						{ padding: 10px 0; }
+header .bottomHeader .mainHeader .logo 		{ max-width: 120px; }
+.menu_sec ul.menu li 						{ margin-right: 20px; }
+header .bottomHeader .mainHeader .menu_sec ul.menu li.contactBtn a { padding: 12px 50px 12px 20px; }
+header .bottomHeader .mainHeader .menu_sec ul.menu li.contactBtn a>span { font-size: 14px; }
+header .bottomHeader .mainHeader .menu_sec ul.menu li.contactBtn a::after { right: 20px; }
+
+.bannerSec  								{ height: 100%; padding: 170px 0 50px; }
+.bannerSec .caption 						{ padding-right: 0; }
+.bannerSec .caption h1 						{ font-size: 40px; line-height: 55px; margin-bottom: 15px; }
+.bannerSec .caption p 						{ margin-bottom: 25px; }
+.bannerSec .caption .viewDrillsBtn 			{ padding: 13px 55px 13px 25px; }
+.bannerSec .caption .viewDrillsBtn>span 	{ font-size: 14px; }
+.bannerSec .caption .viewDrillsBtn::after 	{ right: 25px; }
+
+.aboutSec 									{ padding: 50px 0; }
+.aboutSec .leftCol 							{ padding-right: 0; }
+.aboutSec .leftCol h3 						{ line-height: 20px; margin-bottom: 10px; }
+.aboutSec .leftCol h2 						{ font-size: 25px; line-height: 35px; margin-bottom: 20px; }
+.aboutSec .rightCol 						{ margin-right: calc(-15px - var(--container-padding)); }
+.aboutSec .leftCol .aboutCounterBox 		{ margin-top: 20px; gap: 20px; }
+.aboutSec .leftCol .aboutCounterBox .counterBox .counterNumber { margin-bottom: 10px; font-size: 32px; line-height: 40px; }
+.aboutSec .leftCol .aboutCounterBox .counterBox .counterNumber .odometer.odometer-auto-theme,
+.aboutSec .leftCol .aboutCounterBox .counterBox .counterNumber .odometer.odometer-theme-default { line-height: 30px; }
+.aboutSec .leftCol .aboutCounterBox .counterBox .counterNumber sub { font-size: 25px; bottom: 15px; }
+.aboutSec .leftCol .aboutCounterBox .counterBox .counterTitle { line-height: 20px; }
+.aboutSec .leftCol .aboutUsBtn 				{ padding: 13px 55px 13px 25px; }
+.aboutSec .leftCol .aboutUsBtn>span 		{ font-size: 14px; }
+.aboutSec .leftCol .aboutUsBtn::after 		{ right: 20px; }
+
+.ourPromise 								{ padding: 50px 0; }
+.ourPromise .leftCol 						{ margin-bottom: 20px; }
+.ourPromise .leftCol .topBox 				{ padding: 25px; }
+.ourPromise .leftCol .bottomBox  			{ padding: 25px; }
+.ourPromise .leftCol .bottomBox h4 			{ font-size: 16px; }
+.ourPromise .rightCol  						{ padding: 25px; }
+.ourPromise .rightCol h4 					{ font-size: 16px; }
+
+.ourProductSec 								{ padding: 50px 0; }
+.ourProductSec .leftCol 					{ background-size: cover; margin-top: 30px; padding: 0 30px 30px 30px; }
+.ourProductSec .rightCol 					{ padding-left: 0; }
+.ourProductSec .rightCol h3 				{ line-height: 20px; margin-bottom: 10px; }
+.ourProductSec .rightCol h2 				{ font-size: 25px; line-height: 35px; margin-bottom: 20px; }
+.ourProductSec .rightCol ul 				{ margin-bottom: 20px; }
+.ourProductSec .rightCol ul li 				{ line-height: 24px; }
+.ourProductSec .rightCol .productVideoCol 	{ margin-bottom: 30px; }
+.ourProductSec .rightCol .productBtn 		{ gap: 10px; }
+.ourProductSec .rightCol .productBtn .readMoreBtn { padding: 15px 40px 15px 15px; }
+.ourProductSec .rightCol .productBtn .readMoreBtn>span { font-size: 14px; }
+.ourProductSec .rightCol .productBtn .readMoreBtn::after { right: 15px; }
+.ourProductSec .rightCol .productBtn .aboutUsBtn { padding: 15px 15px; font-size: 14px; }
+
+.highlightsSec 								{ padding: 50px 0; }
+.highlightsSec .highlightsSlider h3			{ line-height: 20px; margin-bottom: 10px; }
+.highlightsSec .highlightsSlider h2 		{ font-size: 25px; line-height: 35px; margin-bottom: 40px; }
+.highlightsSec .highlightsSlider .highlights-slider .item .highlightsInfo h4 { font-size: 20px; line-height: 30px; }
+.highlightsSec .highlightsSlider .highlights-slider.owl-theme .owl-dots { margin-top: 40px; }
+
+.marqueeSec 								{ padding: 25px 0; }
+
+.whyChooseSec 								{ padding: 50px 0; }
+.whyChooseSec .whyChoose h3 				{ line-height: 20px; margin-bottom: 10px; }
+.whyChooseSec .whyChoose h2 				{ font-size: 25px; line-height: 35px; margin-bottom: 30px; }
+.whyChooseSec .whyChoose .whyChooseBox 		{ height: calc(100% - 30px); padding: 20px; margin-bottom: 30px; }
+.whyChooseSec .whyChoose .whyChooseBox .whyChooseIcon { margin-bottom: 30px; }
+.whyChooseSec .whyChoose .whyChooseBox h4 	{ margin-bottom: 20px; }
+
+.faqSec 									{ padding: 50px 0; }
+.faqSec .leftCol h3 						{ line-height: 20px; margin-bottom: 10px; }
+.faqSec .leftCol h2 						{ font-size: 25px; line-height: 35px; margin-bottom: 30px; }
+.faqSec .leftCol p 							{ line-height: 26px; }
+.faqSec .faqCol .card .card-header .btn.btn-link { font-size: 16px; line-height: 24px; }
+
+.customersSec 								{ padding: 50px 0; }
+.customersSec h2 							{ font-size: 25px; line-height: 35px; }
+
+footer .ftr-top 							{ padding: 50px 0 30px; }
+footer .ftr-top h4 							{ line-height: 20px; }
+footer .ftr-top .ftr-contact .contactUsBtn	{ padding: 17px 60px 17px 25px; }
+footer .ftr-top .ftr-contact .contactUsBtn>span { font-size: 14px; }
+footer .ftr-top .ftr-contact .contactUsBtn::after { right: 25px; }
+footer .ftr-top .ftr-contact 				{ margin-bottom: 30px; }
+footer .ftr-top .ftr-contact h3 			{ font-size: 30px; }
+footer .ftr-top .ftr-contact h2 			{ font-size: 30px; margin-bottom: 30px; }
+footer .ftr-top .ftr-links h4 				{ margin-bottom: 20px; }
+footer .ftr-top .ftr-links ul.navMenu 		{ margin-bottom: 30px; }
+footer .ftr-top .contact-links ul li 		{ margin-bottom: 20px; }
+footer .ftr-marqueeSec .marquee-container .marquee-text { font-size: 150px; line-height: 150px; padding: 0 30px; }
+
+
+/* ---------- Inner Banner Page Css ---------- */
+.innerBannerSec  							{ padding: 50px 0; }
+.innerBannerSec .caption h1 				{ font-size: 30px; line-height: 40px; }
+.innerBannerSec .caption .bannerBreadcrumb 	{ margin-bottom: 40px; }
+.innerBannerSec .caption form .form-group 	{ margin-bottom: 20px; }
+.innerBannerSec .caption form .form-group .form-control { height: 50px; }
+.innerBannerSec .caption form .form-group textarea.form-control { height: 80px; }
+
+
+/* ---------- Contact Us Page Css ---------- */
+.contactReach 								{ padding: 50px 0 20px; }
+.contactReach .reachBox 					{ flex-direction: column; }
+.contactReach .reachBox .leftCol 			{ width: 100%; margin-bottom: 10px; }
+.contactReach .reachBox .leftCol h3 		{ line-height: 20px; margin-bottom: 10px; }
+.contactReach .reachBox .leftCol h2 		{ font-size: 25px; line-height: 35px; }
+.contactReach .reachBox .rightCol 			{ width: 100%; }
+.contactReach .reachBox  					{ margin-bottom: 20px; }
+.contactReach .contactDetail .detailBox 	{ margin-bottom: 30px; }
+.contactReach .contactDetail .detailBox p 	{ margin-bottom: 15px; }
+.mapSec iframe 								{ height: 350px; }
+
+
+/* ---------- Videos Page Css ---------- */
+.videosInnerBannerSec .caption h1 			{ font-size: 30px; line-height: 40px; margin-bottom: 20px; }
+.videosInnerBannerSec .caption p 			{ width: 70%; }
+.videosInnerBannerSec .caption .subscribeBtn { padding: 20px; }
+
+.videosSec  								{ padding: 50px 0; }
+.videosSec .videosBox 						{ margin-bottom: 30px; }
+.videosSec .videosBox .videos .playBtn 		{ width: 50px; height: 50px; }
+.videosSec .videosBox .videos .playBtn img 	{ width: 16px; }
+.videosSec .viewAllVideosBtn 				{ padding: 18px 50px 18px 20px; }
+.videosSec .viewAllVideosBtn::after 		{ right: 20px; }
+
+
+
+
+
+
+}
+
+/*  #Mobile (Portrait)
+================================================== */
+/* Note: Design for a width of 767px to 320px */
+@media only screen and (max-width: 767px) {
+
+:root										{ --container-width: 100%; }
+.container									{ max-width: 740px; padding: 0 15px;}
+
+header .topHeader	 						{ display: none; }
+header .bottomHeader .mainHeader .menu_sec 	{ display: none; }
+header .bottomHeader .mainHeader .logo 		{ max-width: 100px; z-index: 99; }
+header .bottomHeader .mainHeader .menuBtn 	{ display: block; }
+
+.bannerSec 									{ height: 100%; padding: 100px 0 50px; }
+.bannerSec::before 							{ background: linear-gradient(90deg, #181818 25.48%, rgba(24, 24, 24, 0) 115.23%); }
+.bannerSec .caption 						{ width: 100%; padding: 0; }
+.bannerSec .caption h1 						{ font-size: 25px; line-height: 35px; margin-bottom: 20px; }
+.bannerSec .caption p 						{ margin-bottom: 30px; }
+.bannerSec .caption .viewDrillsBtn 			{ padding: 13px 60px 13px 25px; }
+.bannerSec .caption .viewDrillsBtn::after 	{ right: 25px; }
+.bannerSec .caption .viewDrillsBtn>span 	{ font-size: 14px; }
+.bannerSec .videoCol 						{ display: none; }
+
+.aboutSec 									{ padding: 50px 0; }
+.aboutSec .leftCol 							{ padding-right: 0; margin-bottom: 30px; }
+.aboutSec .leftCol h2 						{ font-size: 25px; line-height: 35px; margin-bottom: 20px; }
+.aboutSec .leftCol h2 br 					{ display: none; }
+.aboutSec .leftCol .aboutUsBtn 				{ padding: 14px 30px; width: 100%; text-align: center; }
+.aboutSec .leftCol .aboutUsBtn::after 		{ right: 35%; }
+.aboutSec .leftCol .aboutUsBtn>span 		{ margin-right: 40px; }
+.aboutSec .leftCol .aboutCounterBox 		{ margin-top: 20px; gap: 10px; }
+.aboutSec .leftCol .aboutCounterBox .counterBox .counterNumber { font-size: 35px; line-height: 35px; margin-bottom: 5px; }
+.aboutSec .leftCol .aboutCounterBox .counterBox .counterNumber .odometer.odometer-auto-theme,
+.aboutSec .leftCol .aboutCounterBox .counterBox .counterNumber .odometer.odometer-theme-default { line-height: 35px; }
+.aboutSec .leftCol .aboutCounterBox .counterBox .counterTitle { font-size: 11px; line-height: 20px; }
+.aboutSec .rightCol 						{ margin-right: 0; border-radius: 5px; }
+
+.ourPromise 								{ padding: 50px 0; }
+.ourPromise .leftCol 						{ margin-bottom: 20px; }
+.ourPromise .leftCol .topBox  				{ padding: 20px; }
+.ourPromise .leftCol .bottomBox 			{ padding: 20px; }
+.ourPromise .leftCol .bottomBox h4 			{ font-size: 16px; }
+.ourPromise .leftCol .bottomBox p.better 	{ margin-bottom: 20px; }
+.ourPromise .rightCol 						{ padding: 20px; }
+.ourPromise .rightCol h4 					{ font-size: 16px; }
+
+.ourProductSec 								{ padding: 50px 0; }
+.ourProductSec .row 						{ flex-direction: column-reverse; }
+.ourProductSec .rightCol 					{ padding-left: 0; margin-bottom: 30px; }
+.ourProductSec .rightCol h2 				{ font-size: 25px; line-height: 35px; margin-bottom: 30px; }
+.ourProductSec .rightCol ul 				{ margin-bottom: 20px; }
+.ourProductSec .rightCol ul li 				{ line-height: 24px; }
+.ourProductSec .rightCol .productVideoCol  	{ flex-direction: column; margin-bottom: 30px; }
+.ourProductSec .rightCol .productVideoCol .videosBox .videosInfo h4 { line-height: 26px; }
+.ourProductSec .rightCol .productBtn 		{ gap: 10px; }
+.ourProductSec .rightCol .productBtn .readMoreBtn { padding: 14px 35px 14px 10px; }
+.ourProductSec .rightCol .productBtn .readMoreBtn>span { font-size: 14px; }
+.ourProductSec .rightCol .productBtn .readMoreBtn::after { right: 10px; }
+.ourProductSec .rightCol .productBtn .aboutUsBtn { padding: 12px 10px; font-size: 14px; }
+.ourProductSec .rightCol .productBtn .aboutUsBtn img { width: 18px; background-repeat: 7px; }
+.ourProductSec .leftCol 					{ background-size: cover; margin-top: 30px; padding: 0 30px 30px 30px; }
+
+.highlightsSec 								{ padding: 50px 0; }
+.highlightsSec .highlightsSlider h2 		{ font-size: 25px; line-height: 35px; margin-bottom: 30px; }
+.highlightsSec .highlightsSlider .highlights-slider .item .highlightsInfo h4 { font-size: 18px; line-height: 30px; }
+.highlightsSec .highlightsSlider .highlights-slider.owl-theme .owl-dots { margin-top: 30px; }
+
+.whyChooseSec 								{ padding: 50px 0 20px; }
+.whyChooseSec .whyChoose h2 				{ font-size: 25px; line-height: 35px; margin-bottom: 30px; }
+.whyChooseSec .whyChoose .whyChooseBox 	 	{ padding: 25px; margin-bottom: 30px; height: calc(100% - 30px); }
+.whyChooseSec .whyChoose .whyChooseBox .whyChooseIcon { margin-bottom: 30px; }
+.whyChooseSec .whyChoose .whyChooseBox h5 	{ margin-bottom: 15px; }
+.whyChooseSec .whyChoose .whyChooseBox h4 	{ font-size: 20px; line-height: 30px; margin-bottom: 25px; }
+
+.faqSec 									{ padding: 50px 0; }
+.faqSec .leftCol 							{ margin-bottom: 30px; text-align: center; }
+.faqSec .leftCol h2 						{ font-size: 25px; line-height: 35px; margin-bottom: 20px; }
+.faqSec .faqCol .card .card-header .btn.btn-link { font-size: 16px; line-height: 24px; }
+.faqSec .faqCol .card .card-body 			{ line-height: 26px; }
+
+.customersSec 								{ padding: 50px 0; }
+.customersSec h2 							{ font-size: 25px; line-height: 35px; margin-bottom: 20px; }
+
+footer .ftr-top 							{ padding: 50px 0; }
+footer .ftr-top .ftr-contact 				{ margin-bottom: 30px; }
+footer .ftr-top .ftr-contact h2 			{ font-size: 30px; line-height: 35px; margin-bottom: 30px; }
+footer .ftr-top .ftr-contact .contactUsBtn 	{ padding: 14px 60px 14px 30px; }
+footer .ftr-top .ftr-contact .contactUsBtn::after { right: 25px; }
+footer .ftr-top .ftr-links  				{ padding: 0; margin-bottom: 30px; }
+footer .ftr-top .ftr-links ul.navMenu 		{ margin-bottom: 40px; }
+footer .ftr-top .ftr-links ul.navMenu li 	{ width: calc(50% - 10px); }
+footer .ftr-top .contact-links ul li 		{ margin-bottom: 20px; }
+footer .ftr-marqueeSec .marquee-container .marquee-text { font-size: 100px; line-height: 100px; padding: 0 30px; }
+footer .ftr-bottom .ftrCol 					{ flex-direction: column; align-items: flex-start; gap: 10px; }
+
+
+/* ---------- Inner Banner Page Css ---------- */
+.innerBannerSec  							{ padding: 50px 0; }
+.innerBannerSec::before,
+.innerBannerSec::after 						{ width: 100%; }
+.innerBannerSec .caption					{ width: 100%; }
+.innerBannerSec .caption h1 				{ font-size: 25px; line-height: 35px; margin-bottom: 20px; }
+.innerBannerSec .caption .bannerBreadcrumb 	{ margin-bottom: 30px; }
+.innerBannerSec .caption form .form-group .form-control { height: 50px; font-size: 14px; }
+.innerBannerSec .caption form .form-group 	{ margin-bottom: 15px; }
+.innerBannerSec .caption form .form-group label { font-size: 14px; line-height: 15px; }
+.innerBannerSec .caption form .form-group textarea.form-control { height: 80px; }
+.innerBannerSec .caption form .form-group .submitBtn { padding: 15px 30px; }
+
+
+/* ---------- Contact Us Page Css ---------- */
+.contactReach 								{ padding: 50px 0; }
+.contactReach .reachBox 					{ flex-direction: column; }
+.contactReach .reachBox .leftCol 			{ width: 100%; margin-bottom: 10px; }
+.contactReach .reachBox .leftCol h2 		{ font-size: 25px; line-height: 35px; }
+.contactReach .reachBox .rightCol 			{ width: 100%; }
+.contactReach .reachBox  					{ margin-bottom: 20px; }
+.contactReach .contactDetail .detailBox 	{ margin-bottom: 30px; padding: 15px; }
+.mapSec iframe 								{ height: 300px; }
+
+
+/* ---------- Videos Page Css ---------- */
+.videosInnerBannerSec 						{ padding: 30px 0; }
+.videosInnerBannerSec .caption h1  			{ font-size: 25px; line-height: 35px; margin-bottom: 20px; }
+.videosInnerBannerSec .caption p 			{ width: 100%; margin-bottom: 20px; }
+.videosInnerBannerSec .caption .subscribeBtn { padding: 18px 20px; }
+
+.videosSec 									{ padding: 30px 0; }
+.videosSec .videosBox  						{ margin-bottom: 30px; }
+.videosSec .videosBox .videos .playBtn 		{ width: 50px; height: 50px; }
+.videosSec .videosBox .videos .playBtn img 	{ width: 15px; }
+.videosSec .viewAllVideosBtn 				{ padding: 18px 70px 18px 25px; }
+
+
+}
+
+/* #Mobile (Landscape)
+================================================== */
+/* Note: Design for a width of 575px to 320px */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+:root										{ --container-width: 100%; }
+.container									{ max-width: 100%; padding: 0 15px; }
+
+
+}
