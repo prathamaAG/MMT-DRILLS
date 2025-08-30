@@ -49,10 +49,10 @@
 		$mail->SMTPAuth = true;
 		$mail->SMTPDebug = 0;
 		$mail->SMTPAuth = 'true';
-		$mail->Host = 'mail.sitename.com';
-		$mail->Port = '465';
-		$mail->Username = 'noreply@sitename.com';
-		$mail->Password = 'R*VJedI?$IGf';
+		$mail->Host = 'YOUR_MAIL_HOST';
+		$mail->Port = 'YOUR_MAIL_PORT';
+		$mail->Username = 'YOUR_MAIL_USERNAME';
+		$mail->Password = 'YOUR_MAIL_PASSWORD';
 		$mail->SetFrom($from,$fname);
 		$mail->Subject = $sub;
 		$mail->Body = $content;
